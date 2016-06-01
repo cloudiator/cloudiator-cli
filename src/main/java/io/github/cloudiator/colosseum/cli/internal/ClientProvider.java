@@ -1,4 +1,4 @@
-package internal;
+package io.github.cloudiator.colosseum.cli.internal;
 
 import de.uniulm.omi.cloudiator.colosseum.client.Client;
 import de.uniulm.omi.cloudiator.colosseum.client.ClientBuilder;

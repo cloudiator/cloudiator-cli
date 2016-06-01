@@ -12,6 +12,10 @@
     <artifactId>colosseum-cli</artifactId>
     <version>0.2.0-SNAPSHOT</version>
 
+    <properties>
+        <spring.shell.version>1.1.0.RELEASE</spring.shell.version>
+    </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -23,6 +27,7 @@
     </dependencyManagement>
 
     <dependencies>
+
         <dependency>
             <groupId>io.github.cloudiator</groupId>
             <artifactId>colosseum-client</artifactId>
@@ -31,6 +36,16 @@
             <groupId>org.reflections</groupId>
             <artifactId>reflections</artifactId>
             <version>0.9.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.shell</groupId>
+            <artifactId>spring-shell</artifactId>
+            <version>${spring.shell.version}</version>
         </dependency>
     </dependencies>
 </project>
